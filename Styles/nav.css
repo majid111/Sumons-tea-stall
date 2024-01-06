@@ -7,7 +7,7 @@ nav li{
     padding: 10px;
 }
 nav li:hover{
-    background-color: aquamarine;
+    background-color: rgba(66, 73, 71, 0.534);
 }
 nav li a{
     text-decoration: none;
