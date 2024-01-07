@@ -6,6 +6,12 @@
     <title>Form</title>
 <!--Styles are here-->
 <link rel="stylesheet" href="Styles/nav.css">
+
+<style>
+    label{
+        display: block;
+    }
+</style>
 </head>
 <body>
     <Header>
@@ -22,7 +28,56 @@
     <!-- Main Section -->
 
     <main>
+        <section>
+            <h1>Shumon Vai er Tea stall</h1>
+            <form>
+                <label for="name">Your Name:
+                    <input type="text" placeholder="Your Name"> 
+                </label>
+                <label for="email">Your Email: <input type="Your email" placeholder= "Your email" ></label>
+                <label for="text">Your Phone: <input type="Your Phone" placeholder="Your Phone"></label>
+
+                <fieldset>
+                    <legend>
+                        Choice One Drink
+                    </legend>
+                    <label for="Milk Tea">
+                        <input type="radio" name=" Tea" id="Milk Tea">Milk Tea
+                    </label>
+                    <label for="Red Tea">
+                        <input type="radio" name=" Tea" id="Red Tea">Red Tea
+                    </label>
+                    <label for="Malta Tea">
+                        <input type="radio" name=" Tea" id="Malta Tea">Malta Tea
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Choice One or more Snacks
+                    </legend>
+                    <label for="Butter Bun">
+                        <input type="checkbox" name=" Bread" id="ButterBun">Butter Bun
+                    </label>
+                    <label for="Bun">
+                        <input type="checkbox" name=" Bread" id="Bun">Bun
+                    </label>
+                    <label for="Bread">
+                        <input type="checkbox" name=" Bread" id="Bread">Bread
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Special Recommendation
+                    </legend>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Recommendation"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
         
+
+
 
     </main>
 
